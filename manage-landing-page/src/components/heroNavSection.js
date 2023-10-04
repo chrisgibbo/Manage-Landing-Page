@@ -1,4 +1,5 @@
 import React from "react";
+import HeroButton from "./heroButton";
 
 function heroNavSection() {
   return (
@@ -15,7 +16,7 @@ function heroNavSection() {
             <li>Community</li>
           </ul>
         </div>
-        <button>Get Started</button>
+        <HeroButton />
       </nav>
       {/* Hero Section */}
       <div className="flex">
@@ -27,7 +28,7 @@ function heroNavSection() {
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <button>Get Started</button>
+          <HeroButton />
         </div>
         <div className="flex justify-between items-center w-1/2 bg-blue-200">
           <img scr="*" alt="field of shit"></img>
