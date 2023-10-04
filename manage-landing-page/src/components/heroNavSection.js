@@ -8,7 +8,7 @@ function heroNavSection() {
       <nav className="flex justify-between items-center pt-8 pb-16">
         <span>Logo</span>
         <div>
-          <ul className="flex space-x-8">
+          <ul className="navLinks flex text-xs font-medium space-x-8">
             <li>Pricing</li>
             <li>Product</li>
             <li>About Us</li>
