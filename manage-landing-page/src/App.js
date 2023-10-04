@@ -1,9 +1,10 @@
 // import logo from "./logo.svg";
+import HeroNavSection from "./components/heroNavSection";
 
 function App() {
   return (
     <div>
-      <p>Hello World!...</p>
+      <HeroNavSection />
     </div>
   );
 }
