@@ -8,3 +8,13 @@
   --veryPaleRed: hsl(13, 100%, 96%);
   --veryLightGray: hsl(0, 0%, 98%);
 }
+
+.HeroBtn {
+  background: var(--brightRed);
+  color: var(--veryPaleRed);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navLinks {
+  color: var(--darkBlue);
+}
