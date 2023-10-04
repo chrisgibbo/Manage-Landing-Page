@@ -20,11 +20,11 @@ function heroNavSection() {
       </nav>
       {/* Hero Section */}
       <div className="flex">
-        <div className="w-1/2 bg-red-200 pr-32">
+        <div className="w-1/2 bg-red-200 pr-28">
           <h1 className="text-5xl font-bold pb-10">
-            Bring everyone together to build better products
+            Bring everyone together to build better products.
           </h1>
-          <p className="pb-10 text-sm pr-32">
+          <p className="pb-10 text-sm pr-28">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
