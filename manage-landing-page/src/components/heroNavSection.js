@@ -20,7 +20,7 @@ function heroNavSection() {
       </nav>
       {/* Hero Section */}
       <div className="flex">
-        <div className="w-1/2 bg-red-200 pr-28">
+        <div className="w-1/2 pr-28">
           <h1 className="text-5xl font-bold pb-10">
             Bring everyone together to build better products.
           </h1>
@@ -30,7 +30,7 @@ function heroNavSection() {
           </p>
           <HeroButton />
         </div>
-        <div className="flex justify-between items-center w-1/2 bg-blue-200">
+        <div className="flex justify-between items-center w-1/2 ">
           <img scr="*" alt="field of shit"></img>
           <img scr="*" alt="field of shit"></img>
           <img scr="*" alt="field of shit"></img>
