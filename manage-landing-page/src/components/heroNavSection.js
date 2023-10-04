@@ -3,7 +3,7 @@ import HeroButton from "./heroButton";
 
 function heroNavSection() {
   return (
-    <div className="px-28 h-screen box-border">
+    <div className="px-28 h-screen box-border font-BeVietnamPro">
       {/* navigation Bar */}
       <nav className="flex justify-between items-center pt-8 pb-16">
         <span>Logo</span>
