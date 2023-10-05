@@ -27,7 +27,7 @@ function heroNavSection() {
           <h1 className="text-5xl font-bold pb-10 navLinks">
             Bring everyone together to build better products.
           </h1>
-          <p className="pb-10 text-sm pr-28">
+          <p className="pb-10 text-sm pr-28 greyFont">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
