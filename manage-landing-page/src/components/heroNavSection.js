@@ -1,29 +1,33 @@
 import React from "react";
 import HeroButton from "./heroButton";
 import Logo from "../images/logo.svg";
+import HeroImage from "../images/illustration-intro.svg";
 
 function heroNavSection() {
   return (
     <div className="px-28 h-screen box-border font-BeVietnamPro">
       {/* navigation Bar */}
+
       <nav className="flex justify-between items-center pt-8 pb-24">
         <span>
           <img src={Logo} alt="MainLogo"></img>
         </span>
         <div>
           <ul className="navLinks flex text-xs font-medium space-x-8">
-            <li>Pricing</li>
-            <li>Product</li>
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Community</li>
+            <li className="cursor-pointer">Pricing</li>
+            <li className="cursor-pointer">Product</li>
+            <li className="cursor-pointer">About Us</li>
+            <li className="cursor-pointer">Careers</li>
+            <li className="cursor-pointer">Community</li>
           </ul>
         </div>
         <HeroButton />
       </nav>
+
       {/* Hero Section */}
+
       <div className="flex">
-        <div className="w-1/2 pr-28">
+        <div className="w-1/2 pr-20 pt-10">
           <h1 className="text-5xl font-bold pb-10 navLinks">
             Bring everyone together to build better products.
           </h1>
@@ -33,10 +37,8 @@ function heroNavSection() {
           </p>
           <HeroButton />
         </div>
-        <div className="flex justify-between items-center w-1/2 ">
-          <img scr="*" alt="field of shit"></img>
-          <img scr="*" alt="field of shit"></img>
-          <img scr="*" alt="field of shit"></img>
+        <div className="flex justify-between items-center">
+          <img src={HeroImage} alt="MainLogo" className=""></img>
         </div>
       </div>
     </div>
