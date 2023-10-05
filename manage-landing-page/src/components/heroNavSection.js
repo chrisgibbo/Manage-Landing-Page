@@ -1,12 +1,15 @@
 import React from "react";
 import HeroButton from "./heroButton";
+import Logo from "../images/logo.svg";
 
 function heroNavSection() {
   return (
     <div className="px-28 h-screen box-border font-BeVietnamPro">
       {/* navigation Bar */}
       <nav className="flex justify-between items-center pt-8 pb-24">
-        <span>Logo</span>
+        <span>
+          <img src={Logo} alt="MainLogo"></img>
+        </span>
         <div>
           <ul className="navLinks flex text-xs font-medium space-x-8">
             <li>Pricing</li>
