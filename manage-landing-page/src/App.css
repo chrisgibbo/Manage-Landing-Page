@@ -18,3 +18,7 @@
 .navLinks {
   color: var(--darkBlue);
 }
+
+.greyFont {
+  color: var(--darkGrayBlue);
+}
