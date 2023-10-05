@@ -24,7 +24,7 @@ function heroNavSection() {
       {/* Hero Section */}
       <div className="flex">
         <div className="w-1/2 pr-28">
-          <h1 className="text-5xl font-bold pb-10">
+          <h1 className="text-5xl font-bold pb-10 navLinks">
             Bring everyone together to build better products.
           </h1>
           <p className="pb-10 text-sm pr-28">
