@@ -3,10 +3,14 @@ import "../App.css";
 
 const infoSection = (props) => {
   return (
-    <div>
-      <button>{props.button}</button>
-      <h3>{props.title}</h3>
-      <p>{props.paragraph}</p>
+    <div className="flex items-start ml-20 pb-10 gap-8">
+      <button className="brightRed py-2 px-5 font-bold text-white text-xs rounded-full">
+        {props.button}
+      </button>
+      <div>
+        <h3 className="darkBlue font-bold text-sm pb-4">{props.title}</h3>
+        <p className="greyFont text-sm">{props.paragraph}</p>
+      </div>
     </div>
   );
 };
