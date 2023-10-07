@@ -8,7 +8,7 @@ function heroNavSection() {
     <div className="px-28 h-screen box-border font-BeVietnamPro">
       {/* navigation Bar */}
 
-      <nav className="flex justify-between items-center pt-8 pb-24">
+      <nav className="flex justify-between items-center pt-8 pb-20">
         <span>
           <img src={Logo} alt="MainLogo"></img>
         </span>
@@ -38,7 +38,7 @@ function heroNavSection() {
           <HeroButton />
         </div>
         <div className="flex justify-between items-center">
-          <img src={HeroImage} alt="MainLogo" className=""></img>
+          <img src={HeroImage} alt="MainLogo" className="w-11/12"></img>
         </div>
       </div>
     </div>
