@@ -4,8 +4,8 @@ import InfoSection from "./components/infoSection";
 
 function centerSection() {
   return (
-    <div className="flex justify-between px-28 pt-24 h-screen box-border font-BeVietnamPro">
-      <div className="">
+    <div className="inline-flex justify-between items-center px-28 pt-12 h-screen box-border font-BeVietnamPro">
+      <div className="place-self-start pt-12">
         <h1 className="text-4xl font-bold darkBlue mb-8">
           What's different about Manage?
         </h1>
