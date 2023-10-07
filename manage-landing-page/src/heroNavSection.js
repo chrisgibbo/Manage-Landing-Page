@@ -13,7 +13,7 @@ function heroNavSection() {
           <img src={Logo} alt="MainLogo"></img>
         </span>
         <div>
-          <ul className="navLinks flex text-xs font-medium space-x-8">
+          <ul className="darkBlue flex text-xs font-medium space-x-8">
             <li className="cursor-pointer">Pricing</li>
             <li className="cursor-pointer">Product</li>
             <li className="cursor-pointer">About Us</li>
@@ -28,7 +28,7 @@ function heroNavSection() {
 
       <div className="flex">
         <div className="w-1/2 pr-20 pt-10">
-          <h1 className="text-5xl font-bold pb-10 navLinks">
+          <h1 className="text-5xl font-bold pb-10 darkBlue">
             Bring everyone together to build better products.
           </h1>
           <p className="pb-10 text-sm pr-28 greyFont">
