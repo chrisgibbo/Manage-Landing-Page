@@ -1,7 +1,7 @@
 import React from "react";
-import HeroButton from "./heroButton";
-import Logo from "../images/logo.svg";
-import HeroImage from "../images/illustration-intro.svg";
+import HeroButton from "./components/heroButton";
+import Logo from "./images/logo.svg";
+import HeroImage from "./images/illustration-intro.svg";
 
 function heroNavSection() {
   return (
