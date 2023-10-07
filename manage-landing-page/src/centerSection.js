@@ -1,11 +1,12 @@
 import React from "react";
+import "./App.css";
 import InfoSection from "./components/infoSection";
 
 function centerSection() {
   return (
-    <div className="px-28 py-12 h-screen box-border font-BeVietnamPro">
+    <div className="flex gap-20 px-28 pt-24 h-screen box-border font-BeVietnamPro">
       <div>
-        <h1>What's different about Manage?</h1>
+        <h1 className="text-3xl">What's different about Manage?</h1>
         <p>
           Mange provides all the functionality your team needs. Without the
           complexity. Our software is tailor-made for modern digital product
@@ -22,7 +23,7 @@ function centerSection() {
         />
         <InfoSection
           button="02"
-          title="Track company-wide progress"
+          title="Advanced built-in reports"
           paragraph="Set internal delivery estimates and track progress toward
           company goals. Our customisable dashboard helps you
           build out the reports you need to keep key stakeholders
@@ -30,7 +31,7 @@ function centerSection() {
         />
         <InfoSection
           button="03"
-          title="Track company-wide progress"
+          title="Everything you need in one place"
           paragraph="Stop jumping from one service to another to 
           communicate. Store files, track tasks and share
           documents. Manage offers an all-in-one team 
