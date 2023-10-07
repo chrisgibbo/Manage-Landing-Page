@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
-import HeroNavSection from "./components/heroNavSection";
-import CenterSection from "./components/centerSection";
+import HeroNavSection from "./heroNavSection";
+import CenterSection from "./centerSection";
 
 function App() {
   return (
