@@ -8,8 +8,8 @@ function testimonials(props) {
         <img src={props.image} alt="Persons Face" className="w-1/2 "></img>
       </div>
       <div>
-        <h3 className="">{props.name}</h3>
-        <p className="">{props.testimonial}</p>
+        <h3 className="darkBlue font-bold py-4">{props.name}</h3>
+        <p className="greyFont text-sm pb-6">{props.testimonial}</p>
       </div>
     </div>
   );
