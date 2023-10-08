@@ -3,7 +3,7 @@ import "../App.css";
 
 function testimonials(props) {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center ">
       <div>
         <img src={props.image} alt="Persons Face"></img>
       </div>
