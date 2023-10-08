@@ -1,5 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
+import Testimonials from "./testimonials";
+import Anisha from "../images/avatar-anisha.png";
+import AliBravo from "../images/avatar-ali.png";
+import RichardWatts from "../images/avatar-richard.png";
+import ShanaiGough from "../images/avatar-shanai.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -13,24 +18,34 @@ function simpleSlider() {
   };
   return (
     <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
+      <Testimonials
+        image={Anisha}
+        name="Anisha Li"
+        testimonial="Manage has supercharged our team's workdflow. The ability 
+      to maintain visibility on larger milestones at all times
+      keeps everyone motivated."
+      />
+      <Testimonials
+        image={AliBravo}
+        name="Ali Bravo"
+        testimonial="Manage has supercharged our team's workdflow. The ability 
+      to maintain visibility on larger milestones at all times
+      keeps everyone motivated."
+      />
+      <Testimonials
+        image={RichardWatts}
+        name="Richard Watts"
+        testimonial="Manage has supercharged our team's workdflow. The ability 
+      to maintain visibility on larger milestones at all times
+      keeps everyone motivated."
+      />
+      <Testimonials
+        image={ShanaiGough}
+        name="Shanai Gough"
+        testimonial="Manage has supercharged our team's workdflow. The ability 
+      to maintain visibility on larger milestones at all times
+      keeps everyone motivated."
+      />
     </Slider>
   );
 }
