@@ -3,13 +3,17 @@ import "../App.css";
 
 function testimonials(props) {
   return (
-    <div className="flex flex-col items-center mx-3 mb-8 greyBackground">
-      <div className="flex flex-col items-center">
-        <img src={props.image} alt="Persons Face" className="w-1/2 "></img>
+    <div className="flex flex-col items-center mx-2 mt-10 greyBackground relative h-44">
+      <div className="flex flex-col items-center h-24 bg-red-200">
+        <img
+          src={props.image}
+          alt="Persons Face"
+          className="h-1/3 absolute top-[-28px]"
+        ></img>
       </div>
-      <div>
-        <h3 className="darkBlue font-bold py-4">{props.name}</h3>
-        <p className="greyFont text-sm pb-6">{props.testimonial}</p>
+      <div className="pb-10 px-6">
+        <h3 className="darkBlue text-sm font-bold pb-6">{props.name}</h3>
+        <p className="greyFont text-xs">{props.testimonial}</p>
       </div>
     </div>
   );
