@@ -12,7 +12,7 @@ function simpleSlider() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
   };
