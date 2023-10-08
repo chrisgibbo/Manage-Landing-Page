@@ -4,8 +4,8 @@ import "./App.css";
 
 function testimonialSection() {
   return (
-    <div className="px-28 pt-12 h-screen box-border font-BeVietnamPro">
-      <h1>What they've said</h1>
+    <div className="text-center px-28 pt-12 h-screen box-border font-BeVietnamPro">
+      <h1 className="text-4xl font-bold darkBlue mb-8">What they've said</h1>
       <div></div>
       <HeroButton />
     </div>
