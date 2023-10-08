@@ -5,7 +5,7 @@ import HeroImage from "./images/illustration-intro.svg";
 
 function heroNavSection() {
   return (
-    <div className="px-28 h-screen box-border font-BeVietnamPro">
+    <div className="px-28 h-screen w-screen box-border font-BeVietnamPro">
       {/* navigation Bar */}
 
       <nav className="flex justify-between items-center pt-8 pb-20">
@@ -37,7 +37,7 @@ function heroNavSection() {
           </p>
           <HeroButton />
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center w-1/2 ">
           <img src={HeroImage} alt="MainLogo" className="w-11/12"></img>
         </div>
       </div>
