@@ -15,6 +15,12 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.HeroBtnWhite {
+  background: var(--veryPaleRed);
+  color: var(--brightRed);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .darkBlue {
   color: var(--darkBlue);
 }
