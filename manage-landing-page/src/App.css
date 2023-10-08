@@ -36,3 +36,7 @@
 .greyBackground {
   background-color: var(--veryLightGray);
 }
+
+.brightRedBkGround {
+  background-color: var(--brightRed);
+}
