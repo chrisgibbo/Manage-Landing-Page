@@ -3,6 +3,7 @@ import HeroNavSection from "./heroNavSection";
 import CenterSection from "./centerSection";
 import TestimonialSection from "./testimonialSection";
 import CallToAction from "./components/callToAction";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CenterSection />
       <TestimonialSection />
       <CallToAction />
+      <Footer />
     </div>
   );
 }
