@@ -51,6 +51,16 @@ function footer() {
           </ul>
         </div>
       </div>
+
+      {/* newsletter signup */}
+
+      <div>
+        <form>
+          <input type="email" placeholder="Updates in your inbox ..." />
+          <submit>Go</submit>
+        </form>
+        <p>Copyright 2023 All Rights Reserved.</p>
+      </div>
     </div>
   );
 }
