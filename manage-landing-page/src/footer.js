@@ -3,7 +3,7 @@ import "./App.css";
 
 function footer() {
   return (
-    <div className="px-28 h-44 font-BeVietnamPro">
+    <div className="px-28 py-12 flex justify-between font-BeVietnamPro footerBackground">
       {/* Logo + social icons div */}
 
       <div>
@@ -21,7 +21,7 @@ function footer() {
 
       {/* footer navlinks div */}
 
-      <div>
+      <div className="flex justify-between gap-32 footerfont">
         <div>
           <ul>
             <li>
