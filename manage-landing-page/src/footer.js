@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "./App.css";
 
 function footer() {
   return (
@@ -58,7 +58,7 @@ function footer() {
       <div>
         <form>
           <input type="email" placeholder="Updates in your inbox ..." />
-          <submit>Go</submit>
+          <button>Go</button>
         </form>
         <p>Copyright 2023 All Rights Reserved.</p>
       </div>
