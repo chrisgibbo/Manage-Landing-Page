@@ -1,22 +1,41 @@
 import React from "react";
 import LogoWhite from "./images/logoWhite.svg";
 import "./App.css";
+import {
+  FaFacebookSquare,
+  FaYoutube,
+  FaTwitter,
+  FaPinterest,
+  FaInstagram,
+} from "react-icons/fa";
+
+const style = { color: "#FAFAFA", fontSize: "1.2em" };
 
 function footer() {
   return (
     <div className="px-28 py-12 flex justify-between font-BeVietnamPro footerBackground">
       {/* Logo + social icons div */}
 
-      <div>
+      <div className="flex flex-col justify-between items-center">
         <div>
           <img src={LogoWhite} alt="MainLogoWhite"></img>
         </div>
-        <div>
-          <img scr="" alt=""></img>
-          <img scr="" alt=""></img>
-          <img scr="" alt=""></img>
-          <img scr="" alt=""></img>
-          <img scr="" alt=""></img>
+        <div className="flex gap-3">
+          <a href="*">
+            <FaFacebookSquare style={style} />
+          </a>
+          <a href="*">
+            <FaYoutube style={style} />
+          </a>
+          <a href="*">
+            <FaTwitter style={style} />
+          </a>
+          <a href="*">
+            <FaPinterest style={style} />
+          </a>
+          <a href="*">
+            <FaInstagram style={style} />
+          </a>
         </div>
       </div>
 
