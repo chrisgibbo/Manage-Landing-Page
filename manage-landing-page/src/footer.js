@@ -75,8 +75,8 @@ function footer() {
 
       {/* newsletter signup */}
 
-      <div>
-        <form>
+      <div className="flex flex-col justify-between items-center">
+        <form className="gap-10">
           <input type="email" placeholder="Updates in your inbox ..." />
           <button>Go</button>
         </form>
