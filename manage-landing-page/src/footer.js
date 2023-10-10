@@ -41,7 +41,7 @@ function footer() {
 
       {/* footer navlinks div */}
 
-      <div className="flex justify-between gap-32 footerfont text-sm leading-8">
+      <div className="flex justify-between gap-44 footerfont text-sm leading-8">
         <div className="">
           <ul className="">
             <li>
