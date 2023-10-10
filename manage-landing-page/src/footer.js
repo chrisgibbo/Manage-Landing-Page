@@ -1,4 +1,5 @@
 import React from "react";
+import LogoWhite from "./images/logoWhite.svg";
 import "./App.css";
 
 function footer() {
@@ -8,7 +9,7 @@ function footer() {
 
       <div>
         <div>
-          <img scr="" alt=""></img>
+          <img src={LogoWhite} alt="MainLogoWhite"></img>
         </div>
         <div>
           <img scr="" alt=""></img>
