@@ -76,11 +76,15 @@ function footer() {
       {/* newsletter signup */}
 
       <div className="flex flex-col justify-between items-center">
-        <form className="gap-10">
-          <input type="email" placeholder="Updates in your inbox ..." />
+        <form className="">
+          <input
+            type="email"
+            placeholder="Updates in your inbox ..."
+            className="rounded-full px-4 py-3 text-xs"
+          />
           <button>Go</button>
         </form>
-        <p>Copyright 2023 All Rights Reserved.</p>
+        <p className="greyFont text-xs">Copyright 2023 All Rights Reserved.</p>
       </div>
     </div>
   );
