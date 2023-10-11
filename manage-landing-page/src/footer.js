@@ -80,9 +80,11 @@ function footer() {
           <input
             type="email"
             placeholder="Updates in your inbox ..."
-            className="rounded-full px-4 py-3 text-xs"
+            className="rounded-full px-4 py-3 text-xs outline-none"
           />
-          <button>Go</button>
+          <button className="brightRedBkGround rounded-full px-5 py-3 text-xs font-semibold footerfont ml-2">
+            Go
+          </button>
         </form>
         <p className="greyFont text-xs">Copyright 2023 All Rights Reserved.</p>
       </div>
