@@ -3,7 +3,7 @@ import "../App.css";
 
 function testimonials(props) {
   return (
-    <div className="flex flex-col items-center mx-2 mt-10 mb-6 greyBackground relative h-44">
+    <div className="flex flex-col items-center mx-2 mt-10 mb-6 greyBackground relative h-44 hover:cursor-move">
       <div className="flex flex-col items-center h-24 ">
         <img
           src={props.image}
