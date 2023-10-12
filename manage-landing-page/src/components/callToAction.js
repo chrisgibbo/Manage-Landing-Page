@@ -9,7 +9,7 @@ function callToAction() {
           Simplify how your team works today.
         </h2>
       </div>
-      <button className="HeroBtnWhite py-3 px-7 text-xs rounded-full font-semibold">
+      <button className="HeroBtnWhite py-3 px-7 text-xs rounded-full font-semibold hover:opacity-70">
         Get Started
       </button>
     </div>
