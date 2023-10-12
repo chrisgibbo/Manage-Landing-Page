@@ -23,21 +23,21 @@ function heroNavSection() {
         </div>
         <HeroButton />
       </nav>
-      <div className="px-28 h-screen bg-red-200">
+      <div className="flex px-28 h-screen ">
         {/* Hero Section */}
 
-        <div className="flex bg-yellow-200">
-          <div className="bg-red-400 w-1/2">
-            <h1 className="text-5xl font-bold  darkBlue">
+        <div className="flex justify-center ">
+          <div className=" flex-col items-center  w-1/2 pt-20">
+            <h1 className="text-5xl font-bold darkBlue pb-10">
               Bring everyone together to build better products.
             </h1>
-            <p className="text-sm greyFont">
+            <p className="text-sm greyFont pb-10 w-2/3 pr-4">
               Manage makes it simple for software teams to plan day-to-day tasks
               while keeping the larger team goals in view.
             </p>
             <HeroButton />
           </div>
-          <div className="flex justify-between items-center bg-blue-200 ">
+          <div className="flex items-center ">
             <img src={HeroImage} alt="MainLogo" className=""></img>
           </div>
         </div>
