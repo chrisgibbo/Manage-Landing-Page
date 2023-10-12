@@ -5,10 +5,10 @@ import HeroImage from "./images/illustration-intro.svg";
 
 function heroNavSection() {
   return (
-    <div className="px-28 h-screen w-screen box-border font-BeVietnamPro">
+    <div className="box-border font-BeVietnamPro">
       {/* navigation Bar */}
 
-      <nav className="flex justify-between items-center pt-8 pb-20">
+      <nav className="flex justify-between items-center pt-6 pb-14 px-28">
         <span>
           <img src={Logo} alt="MainLogo"></img>
         </span>
@@ -23,22 +23,23 @@ function heroNavSection() {
         </div>
         <HeroButton />
       </nav>
+      <div className="px-28 h-screen bg-red-200">
+        {/* Hero Section */}
 
-      {/* Hero Section */}
-
-      <div className="flex">
-        <div className="w-1/2 pr-20 pt-10">
-          <h1 className="text-5xl font-bold pb-10 darkBlue">
-            Bring everyone together to build better products.
-          </h1>
-          <p className="pb-10 text-sm pr-28 greyFont">
-            Manage makes it simple for software teams to plan day-to-day tasks
-            while keeping the larger team goals in view.
-          </p>
-          <HeroButton />
-        </div>
-        <div className="flex justify-between items-center w-1/2 ">
-          <img src={HeroImage} alt="MainLogo" className="w-11/12"></img>
+        <div className="flex bg-yellow-200">
+          <div className="bg-red-400 w-1/2">
+            <h1 className="text-5xl font-bold  darkBlue">
+              Bring everyone together to build better products.
+            </h1>
+            <p className="text-sm greyFont">
+              Manage makes it simple for software teams to plan day-to-day tasks
+              while keeping the larger team goals in view.
+            </p>
+            <HeroButton />
+          </div>
+          <div className="flex justify-between items-center bg-blue-200 ">
+            <img src={HeroImage} alt="MainLogo" className=""></img>
+          </div>
         </div>
       </div>
     </div>
