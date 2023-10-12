@@ -15,6 +15,10 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+:hover.HeroBtn {
+  box-shadow: none;
+}
+
 .HeroBtnWhite {
   background: white;
   color: var(--brightRed);
