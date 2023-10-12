@@ -10,6 +10,8 @@ import {
 } from "react-icons/fa";
 
 const style = { color: "#FAFAFA", fontSize: "1.2em" };
+const handleMouseOver = ({ target }) => (target.style.color = "#F25F3A");
+const handleMouseOut = ({ target }) => (target.style.color = "#fff");
 
 function footer() {
   return (
@@ -22,19 +24,39 @@ function footer() {
         </div>
         <div className="flex gap-3">
           <a href="*">
-            <FaFacebookSquare style={style} />
+            <FaFacebookSquare
+              style={style}
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            />
           </a>
           <a href="*">
-            <FaYoutube style={style} />
+            <FaYoutube
+              style={style}
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            />
           </a>
           <a href="*">
-            <FaTwitter style={style} />
+            <FaTwitter
+              style={style}
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            />
           </a>
           <a href="*">
-            <FaPinterest style={style} />
+            <FaPinterest
+              style={style}
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            />
           </a>
           <a href="*">
-            <FaInstagram style={style} />
+            <FaInstagram
+              style={style}
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+            />
           </a>
         </div>
       </div>
@@ -42,31 +64,31 @@ function footer() {
       {/* footer navlinks div */}
 
       <div className="flex justify-between gap-44 footerfont text-sm leading-8">
-        <div className="">
-          <ul className="">
-            <li>
+        <div>
+          <ul>
+            <li className="hover:text-red-400">
               <a href="*">Home</a>
             </li>
-            <li>
+            <li className="hover:text-red-400">
               <a href="*">Pricing</a>
             </li>
-            <li>
+            <li className="hover:text-red-400">
               <a href="*">Products</a>
             </li>
-            <li>
+            <li className="hover:text-red-400">
               <a href="*">About Us</a>
             </li>
           </ul>
         </div>
         <div>
           <ul>
-            <li>
+            <li className="hover:text-red-400">
               <a href="*">Careers</a>
             </li>
-            <li>
+            <li className="hover:text-red-400">
               <a href="*">Community</a>
             </li>
-            <li>
+            <li className="hover:text-red-400">
               <a href="*">Privacy Policy</a>
             </li>
           </ul>
@@ -82,7 +104,7 @@ function footer() {
             placeholder="Updates in your inbox ..."
             className="rounded-full px-8 py-3 text-xs outline-none"
           />
-          <button className="brightRedBkGround rounded-full px-5 py-3 text-xs font-semibold footerfont ml-2">
+          <button className="brightRedBkGround rounded-full px-5 py-3 text-xs font-semibold footerfont ml-2 hover:brightness-150">
             Go
           </button>
         </form>
