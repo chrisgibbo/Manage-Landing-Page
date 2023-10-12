@@ -10,7 +10,7 @@ function heroNavSection() {
 
       <nav className="flex justify-between items-center pt-6 pb-14 px-28">
         <span>
-          <img src={Logo} alt="MainLogo"></img>
+          <img src={Logo} alt="MainLogo" className="hover:cursor-cell"></img>
         </span>
         <div>
           <ul className="darkBlue flex text-xs font-medium space-x-8 ">
