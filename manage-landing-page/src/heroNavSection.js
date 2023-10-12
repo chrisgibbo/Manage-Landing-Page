@@ -37,7 +37,7 @@ function heroNavSection() {
             </p>
             <HeroButton />
           </div>
-          <div className="flex items-center ">
+          <div className="flex items-center pl-20 pb-20">
             <img src={HeroImage} alt="MainLogo" className=""></img>
           </div>
         </div>
