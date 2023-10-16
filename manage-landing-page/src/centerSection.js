@@ -4,12 +4,15 @@ import InfoSection from "./components/infoSection";
 
 function centerSection() {
   return (
-    <div className="inline-flex justify-between items-center px-28 pt-12 h-screen box-border font-BeVietnamPro">
-      <div className="place-self-start pt-12">
+    <div
+      className="flex justify-between items-center px-28 pt-12  max-lg:pt-0h-screen box-border font-BeVietnamPro 
+    max-lg:flex-col max-lg:px-6 "
+    >
+      <div className="place-self-start pt-12 max-lg:pt-0 max-lg:pb-16 max-lg:text-center">
         <h1 className="text-4xl font-bold darkBlue mb-8">
           What's different about Manage?
         </h1>
-        <p className="text-sm pr-28 greyFont">
+        <p className="text-sm pr-28 greyFont max-lg:p-0 max-lg:text-lg">
           Mange provides all the functionality your team needs. Without the
           complexity. Our software is tailor-made for modern digital product
           teams.
