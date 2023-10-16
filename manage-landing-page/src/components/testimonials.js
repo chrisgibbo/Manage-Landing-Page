@@ -16,7 +16,7 @@ function testimonials(props) {
           {props.name}
         </h3>
         <p className="greyFont text-xs max-md:text-lg max-lg:px-10 max-lg:pb-10">
-          {props.testimonial}
+          <q>{props.testimonial}</q>
         </p>
       </div>
     </div>
