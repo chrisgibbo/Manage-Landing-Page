@@ -60,3 +60,8 @@
 .footerfont {
   color: var(--veryLightGray);
 }
+
+.slick-dots li.slick-active button:before {
+  color: var(--brightRed) !important;
+  font-size: 10px;
+}
