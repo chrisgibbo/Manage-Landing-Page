@@ -63,5 +63,5 @@
 
 .slick-dots li.slick-active button:before {
   color: var(--brightRed) !important;
-  font-size: 10px;
+  font-size: 12px;
 }
