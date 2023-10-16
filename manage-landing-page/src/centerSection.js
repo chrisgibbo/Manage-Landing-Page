@@ -5,7 +5,7 @@ import InfoSection from "./components/infoSection";
 function centerSection() {
   return (
     <div
-      className="flex justify-between items-center px-28 pt-12  max-lg:pt-0h-screen box-border font-BeVietnamPro 
+      className="flex justify-between items-center px-28 pt-12 max-lg:pt-0h-screen box-border font-BeVietnamPro 
     max-lg:flex-col max-lg:px-6 "
     >
       <div className="place-self-start pt-12 max-lg:pt-0 max-lg:pb-16 max-lg:text-center">
