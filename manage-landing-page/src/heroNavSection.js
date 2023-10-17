@@ -2,7 +2,7 @@ import React from "react";
 import HeroButton from "./components/heroButton";
 import Logo from "./images/logo.svg";
 import HeroImage from "./images/illustration-intro.svg";
-import HamburgerMenu from "./components/hamburgerMenu";
+import NavBarMobile from "./components/navBarMobile";
 
 function heroNavSection() {
   return (
@@ -11,7 +11,11 @@ function heroNavSection() {
 
       <nav className="flex justify-between items-center pt-10 pb-14 px-28 max-lg:hidden">
         <span>
-          <img src={Logo} alt="MainLogo" className="hover:cursor-cell"></img>
+          <img
+            src={Logo}
+            alt="MainLogo"
+            className="hover:cursor-cell transition-transform transform hover:scale-105"
+          ></img>
         </span>
         <div>
           <ul className="darkBlue flex text-xs font-medium space-x-8 ">
@@ -25,9 +29,9 @@ function heroNavSection() {
         <HeroButton />
       </nav>
 
-      {/* mobile menud */}
+      {/* mobile menu */}
 
-      <HamburgerMenu />
+      <NavBarMobile />
 
       {/* Hero Section */}
       <div className="px-28 max-lg:px-6 max-lg:h-screen">
@@ -43,7 +47,11 @@ function heroNavSection() {
             <HeroButton />
           </div>
           <div className="flex items-center justify-center pl-20 pb-20 max-lg:p-0">
-            <img src={HeroImage} alt="MainLogo" className=""></img>
+            <img
+              src={HeroImage}
+              alt="MainLogo"
+              className="transition-transform transform hover:scale-105"
+            ></img>
           </div>
         </div>
       </div>
