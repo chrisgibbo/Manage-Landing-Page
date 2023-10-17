@@ -2,7 +2,7 @@ import React from "react";
 import HeroButton from "./components/heroButton";
 import Logo from "./images/logo.svg";
 import HeroImage from "./images/illustration-intro.svg";
-import Hamburger from "./images/icon-hamburger.svg";
+import HamburgerMenu from "./components/hamburgerMenu";
 
 function heroNavSection() {
   return (
@@ -27,18 +27,7 @@ function heroNavSection() {
 
       {/* mobile menud */}
 
-      <div className="flex justify-between items-center px-14 pt-10 lg:hidden">
-        <span>
-          <img src={Logo} alt="MainLogo" className="hover:cursor-cell"></img>
-        </span>
-        <span>
-          <img
-            src={Hamburger}
-            alt="Hamburger"
-            className="hover:cursor-cell"
-          ></img>
-        </span>
-      </div>
+      <HamburgerMenu />
 
       {/* Hero Section */}
       <div className="px-28 max-lg:px-6 max-lg:h-screen">
