@@ -28,7 +28,7 @@ function footer() {
           <img
             src={LogoWhite}
             alt="MainLogoWhite"
-            className="max-md:my-14 max-md:h-8"
+            className="max-md:my-14 max-md:h-8 transition-transform transform hover:scale-105"
           ></img>
         </div>
         <div className="flex gap-3 max-md:mt-10 max-md:gap-8">
@@ -113,7 +113,10 @@ function footer() {
             placeholder="Updates in your inbox ..."
             className="rounded-full px-8 py-3 text-xs outline-none max-md:w-64"
           />
-          <button className="brightRedBkGround rounded-full px-5 py-3 text-xs font-semibold footerfont ml-2 hover:brightness-150 max-md:px-8 max-md:py-4">
+          <button
+            className="brightRedBkGround rounded-full px-5 py-3 text-xs font-semibold footerfont ml-2 hover:brightness-150 
+          max-md:px-8 max-md:py-4 transition-transform transform hover:scale-105"
+          >
             Go
           </button>
         </form>
