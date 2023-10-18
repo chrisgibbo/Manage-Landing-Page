@@ -7,7 +7,7 @@ function heroSection() {
     <div className="px-28 max-lg:px-6 max-lg:h-screen">
       <div className="flex justify-center max-lg:flex-col-reverse pt-10">
         <div className="flex-col items-center  w-1/2 pt-20 max-lg:w-full max-lg:pt-0 max-lg:text-center">
-          <h1 className="text-5xl font-bold darkBlue pb-10 max-lg:pt-6">
+          <h1 className="text-5xl font-bold darkBlue pb-10 max-lg:pt-6 max-md:text-4xl">
             Bring everyone together to build better products.
           </h1>
           <p className="text-sm greyFont pb-10 w-2/3 pr-4 max-lg:w-full max-lg:text-lg">
