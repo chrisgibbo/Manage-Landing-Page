@@ -13,7 +13,7 @@ const infoSection = (props) => {
       <div>
         <h3
           className="darkBlue font-bold text-sm pb-4 
-        max-lg:text-lg max-lg:bg-red-100 max-lg:p-3 max-lg:pl-2 max-lg:mb-4 max-lg:rounded-xl"
+        max-lg:text-base max-lg:bg-red-100 max-lg:p-3 max-lg:pl-2 max-lg:mb-4 max-lg:rounded-xl"
         >
           {props.title}
         </h3>
