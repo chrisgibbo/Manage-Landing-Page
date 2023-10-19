@@ -5,7 +5,7 @@ function callToAction() {
   return (
     <div
       className="px-28 py-10 flex justify-between items-center brightRedBkGround font-BeVietnamPro
-     max-md:flex-col max-md:px-6 max-md:text-center max-md:py-24"
+     max-md:flex-col max-md:px-6 max-md:text-center max-md:py-16"
     >
       <div className="w-2/5 max-lg:w-full max-md:mb-10">
         <h2 className="text-white font-medium text-3xl max-md:text-4xl max-md:px-14">
